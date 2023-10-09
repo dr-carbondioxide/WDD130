@@ -4,15 +4,19 @@
 }
 nav a{
     text-align: center;
-    color: #252422;
+    color: #5C7AFF;
     text-decoration: none;
 }
 nav a:hover{
-    background-color: #252422;
+    background-color: #5C7AFF;
     color: #e8dab7;
 }
 .home-title, h4{
     color: #e8dab7;
+}
+#hero-img {
+    width: 100%;
+
 }
 #hero-msg h1{
     text-align: center;
@@ -31,27 +35,27 @@ main section{
     background-color: #e8dab7;
 }
 body{
-    background-color: #252422;
+    background-color: #5C7AFF;
 }
 header{
     background-color: #EB5E28;
 }
 .book{
     background-color: #e8dab7;
-    color: #252422;
+    color: #5C7AFF;
     text-decoration: none;
 }
 .join{
     background-color: #EB5E28;
-    color: #252422;
+    color: #5C7AFF;
 }
 .book:hover{
     background-color: #EB5E28;
-    color: #252422;
+    color: #5C7AFF;
     text-decoration: none;
 }
 .join:hover{
-    background-color: #252422;
+    background-color: #5C7AFF;
     color: #e8dab7;
 }
 .msg{
@@ -59,11 +63,11 @@ header{
 }
 footer{
     background-color: #EB5E28;
-    color: #252422;
+    color: #5C7AFF;
     font-size: 1.2em;
 }
 footer a{
-    color: #252422;
+    color: #5C7AFF;
     text-decoration: none;
 }
 footer a:hover{
@@ -71,7 +75,7 @@ footer a:hover{
     text-decoration: underline;
 }
 .msg h2, p{
-    color: #252422;
+    color: #5C7AFF;
 }
 .logo{
     width: 80px;
@@ -82,4 +86,3 @@ footer a:hover{
 h2{
     color: whitesmoke;
 }
-
