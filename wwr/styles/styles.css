@@ -9,10 +9,10 @@ nav a{
 }
 nav a:hover{
     background-color: #5C7AFF;
-    color: #e8dab7;
+    color: #44E5E7;
 }
 .home-title, h4{
-    color: #e8dab7;
+    color: #44E5E7;
 }
 #hero-img {
     width: 100%;
@@ -38,7 +38,7 @@ body{
     background-color: #5C7AFF;
 }
 header{
-    background-color: #EB5E28;
+    background-color: #59D2FE;
 }
 .book{
     background-color: #e8dab7;
@@ -46,11 +46,11 @@ header{
     text-decoration: none;
 }
 .join{
-    background-color: #EB5E28;
+    background-color: #59D2FE;
     color: #5C7AFF;
 }
 .book:hover{
-    background-color: #EB5E28;
+    background-color: #59D2FE;
     color: #5C7AFF;
     text-decoration: none;
 }
@@ -59,10 +59,10 @@ header{
     color: #e8dab7;
 }
 .msg{
-    background-color: #EB5E28;
+    background-color: #59D2FE;
 }
 footer{
-    background-color: #EB5E28;
+    background-color: #59D2FE;
     color: #5C7AFF;
     font-size: 1.2em;
 }
