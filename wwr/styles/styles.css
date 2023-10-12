@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+/**  --heading-font: 'Martian Mono', monospace;
+--paragraph-font: 'Martian Mono', monospace; **/
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +14,7 @@ nav a{
 nav a:hover{
     background-color: #F4FAFF;
     color: #08090A;
+    padding: 25px;
 }
 .home-title, h4{
     color: #08090A;
@@ -32,10 +37,12 @@ main section{
 }
 #background{
     height: 725px;
-    background-color: #08090A;
+    background-color: #F4FAFF;
 }
 body{
     background-color: #F4FAFF;
+    font-family:  'Martian Mono', monospace;
+    margin: 0
 }
 header{
     background-color: #8789C0;
@@ -69,6 +76,7 @@ footer{
 footer a{
     color: #F4FAFF;
     text-decoration: none;
+    padding: 25px;
 }
 footer a:hover{
     color: #08090A;
@@ -84,5 +92,9 @@ footer a:hover{
     width: 80px;
 }
 h2{
-    color: whitesmoke;
+    color: #08090A;
+    margin: 50px;
+}
+img {
+    border: 4px solid steelblue;
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Writing Club</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Poetry Writing Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Welcome to our Poetry Writing Club, where we celebrate the beauty of words and emotions through poetry. Join us and share your creativity with the world.</p>
+        </section>
+
+        <section class="members">
+            <h2>Members</h2>
+            <ul>
+                <li><a href="profile1.html">Member 1</a></li>
+                <li><a href="profile2.html">Member 2</a></li>
+                <!-- Add more members as needed -->
+            </ul>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li><a href="event1.html">Event 1 - Poetry Workshop</a></li>
+                <li><a href="event2.html">Event 2 - Open Mic Night</a></li>
+                <!-- Add more events as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Poetry Writing Club</p>
+    </footer>
+</body>
+</html>
