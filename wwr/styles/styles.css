@@ -32,7 +32,7 @@ main section{
 }
 #background{
     height: 725px;
-    background-color: #e8dab7;
+    background-color: #08090A;
 }
 body{
     background-color: #F4FAFF;
@@ -41,7 +41,7 @@ header{
     background-color: #8789C0;
 }
 .book{
-    background-color: #e8dab7;
+    background-color: #08090A;
     color: #F4FAFF;
     text-decoration: none;
 }
