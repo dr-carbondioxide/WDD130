@@ -9,13 +9,18 @@ font-family: "Martian Mono",monospace;
 }
 
 
-
-#logo_link{
-padding-top: 5px;
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 #content {
 max-width: 1600px;
 margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 nav a{
 text-align: center;
@@ -31,9 +36,19 @@ nav a:hover{
 .home-title, h4{
 color: #08090A;
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+
 #hero-img {
 width: 100%;
-
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
 
 #hero-msg h1{
@@ -41,6 +56,7 @@ text-align: center;
 }
 #hero-msg h4{
 text-align: center;
+color: white;
 }
 .button-box{
 text-align: center;
@@ -65,6 +81,11 @@ padding: 0;
 header{
 background-color: #8789C0;
 }
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 .book{
 background-color: #08090A;
 color: #F4FAFF;
@@ -102,6 +123,9 @@ color: #F4FAFF;
 font-size: 1.2em;
 padding: 25px 50px;
 margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 footer a{
     color: #F4FAFF;
