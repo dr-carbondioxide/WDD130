@@ -9,7 +9,7 @@
 
 
   --heading-font: "Playfair Display";
-  --paragraph-font: Playfair Display, Helvetica, sans-serif;
+  --paragraph-font: "Playfair Display", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #D96236;  /* headlines on a white background */ 
