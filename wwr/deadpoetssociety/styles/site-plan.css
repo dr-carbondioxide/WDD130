@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Martian+Mono:wght@300;400&display=swap');
 
 :root {
   --primary-color: #8C3535   ;
@@ -7,9 +7,8 @@
   --accent2-color: #F2D95C;
   --accent3-color: #494F3E;
 
-
-  --heading-font: "Playfair Display";
-  --paragraph-font: "Playfair Display", Helvetica, sans-serif;
+  --heading-font: 'Gideon Roman', serif;
+  --paragraph-font: 'Gideon Roman', serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #D96236;  /* headlines on a white background */ 
