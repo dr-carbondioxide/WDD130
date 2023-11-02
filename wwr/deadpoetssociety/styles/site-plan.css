@@ -8,7 +8,7 @@
   --accent3-color: #494F3E;
 
   --heading-font: 'Gideon Roman', serif;
-  --paragraph-font: 'Gideon Roman', serif;
+  --paragraph-font: 'Gideon Roman', Helvetica, serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #D96236;  /* headlines on a white background */ 
