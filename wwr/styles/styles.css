@@ -223,7 +223,7 @@ footer .social img{
     grid-row: 1/2;
 
 }
-.plan_sect_img{
+.plan_sect img{
     float: left;
     grid-column: 1/2 ;
     grid-row: 1/3;
