@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Martian+Mono:wght@300;400&display=swap');
+
+body {
+  background-color: #8C3535;
+  font-family: 'Gideon Roman', Helvetica, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #F2D95C;
+  display: grid;
+  grid-template-columns: 120px auto;
+}
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2D95C;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+nav a {
+    text-align: center;
+    color: #F29544;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s; 
+  }
+  
+  nav a:hover {
+    background-color: #F29544;
+    color: #8C3535;
+    border-color: #8C3535;
+  }
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  text-align: center;
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 3fr);
+}
+
+#hero-msg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  #hero-msg p {
+    font-family: 'Gideon Roman', Helvetica, serif;
+    font-size: 1.2em;
+    color: #F4FAFF;
+    text-align: center;
+  }
+  
+  .home-title {
+    font-family: 'Gideon Roman', Helvetica, serif;
+    font-size: 2em;
+    margin-top: 30px;
+    color: #F2D95C;
+    text-align: center;
+    text-shadow: 2px 2px 4px #F29544;
+  }
+  
+  main h2 {
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px 0;
+  }
+  
+.join {
+  background-color: #F4FAFF;
+  color: #252422;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.join:hover {
+  background-color: #252422;
+  color: #e8dab7;
+}
+
+footer {
+    width: 100%;
+    background-color: #F4FAFF;
+    color: #252422;
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  footer a {
+    color: #252422;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #e8dab7;
+    text-decoration: underline;
+  }
+  
+
+.social img {
+  padding-top: 15px;
+}
