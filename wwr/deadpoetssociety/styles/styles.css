@@ -169,27 +169,31 @@ main h2 {
 
 footer {
     width: 100%;
-    background-color: #F4FAFF;
-    color: #252422;
+    background-color: #F2D95C;
+    color: #8C3535;
     font-size: 1em;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
   }
   
   
   footer a {
-    color: #252422;
+    color: #8C3535;
     text-decoration: none;
+    padding: 10px;
   }
   
   footer a:hover {
     color: #e8dab7;
-    text-decoration: underline;
+    background-color: #F29544;
+    color: #8C3535;
+    border-color: #8C3535;
+    border: 1px solid transparent;
   }
-  
 
 .social img {
   padding-top: 15px;
