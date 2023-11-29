@@ -139,32 +139,20 @@ main h2 {
   margin-top: 23px;
   border: 5px solid #F2D95C;
   box-shadow: 2px 2px 4px #F29544;
+  transition-duration: 0.5s;
 }
 #notebook:hover {
   transform: scale(1.1);
-  opacity: .8;
+  opacity: 0.8;
   transition-duration: 0.5s;
 }
+
 #about-me p {
   grid-column: 2/4;
   grid-row: 2/3;
   color: white;
   width: 90%;
   padding-left: 60px;
-}
-  
-.join {
-  background-color: #F4FAFF;
-  color: #252422;
-  font-size: 18px;
-  padding: 15px 30px;
-  margin-top: 50px;
-  border-radius: 5px;
-}
-
-.join:hover {
-  background-color: #252422;
-  color: #e8dab7;
 }
 
 footer {
@@ -177,24 +165,26 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-  }
+    border-color: #8C3535;
+}
   
   
-  footer a {
+footer a {
     color: #8C3535;
     text-decoration: none;
     padding: 10px;
-  }
+}
   
-  footer a:hover {
-    color: #e8dab7;
+footer a:hover {
     background-color: #F29544;
     color: #8C3535;
     border-color: #8C3535;
     border: 1px solid transparent;
-  }
+}
 
 .social img {
   padding-top: 15px;
+  transition: border 0.5s;
 }
+
+
