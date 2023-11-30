@@ -160,7 +160,6 @@ footer {
     background-color: #F2D95C;
     color: #8C3535;
     font-size: 1em;
-    padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -198,6 +197,110 @@ footer a:hover {
   align-items: center;
   transition-duration: 0.5s; 
 }
+.resources_main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust to your needs */
+  text-align: center;
+}
+
+.resource-one {
+  grid-column: 1/2;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+
+.resource-one a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+
+.resource-one a:hover{
+  text-decoration: underline;
+}
+
+.resource-two {
+  grid-column: 2/3;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+.resource-two a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+.resource-two a:hover{
+  text-decoration: underline;
+}
+
+.resource-three {
+  grid-column: 3/4;
+  width: 90%;
+  background-color: #F2D95C;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 1rem;
+  text-align: center;
+  color:#8C3535;
+  transition-duration: 0.5s;
+}
+.resource-three a{
+  text-decoration: none;
+  color: #8C3535;
+  font-size: 1em;
+
+}
+.resource-three a:hover{
+  text-decoration: underline;
+}
+
+.resource-one:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resource-two:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resource-three:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition-duration: 0.5s;
+}
+
+.resources_main img {
+  height: 400px;
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.resources_sect h1 {
+  color: #8C3535;
+  padding: 1rem;
+}
+
+
 
 form {
   margin: 0 auto;
