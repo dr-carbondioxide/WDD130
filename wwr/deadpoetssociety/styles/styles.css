@@ -106,10 +106,12 @@ main h2 {
     margin: 20px 0;
 }
 #join-us {
-  display: table;
-  width: 100%;
+  display: grid;
+  width: 55.5%;
+  text-align: center;
 }
 #join-us-nav {
+  text-align: center;
   display: table-cell;
   width: 100%;
   padding-left: 40%;
@@ -160,11 +162,13 @@ footer {
     background-color: #F2D95C;
     color: #8C3535;
     font-size: 1em;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-color: #8C3535;
+    padding-top: 20px;
+    padding-top: 20px;
 }
   
   
@@ -190,6 +194,15 @@ footer a:hover {
   width: 80%;
   margin-left: 120px;
   margin-top: 30px;
+  transition-duration: 0.5s;
+  border: 5px solid #F2D95C;
+  transition-duration: 0.5s;
+}
+
+#poems:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  transition-duration: 0.5s;
 }
 .resources_main {
   display: grid;
@@ -294,7 +307,39 @@ footer a:hover {
   padding: 1rem;
 }
 
+#additional-video {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+#additional-video video {
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
+#youtube-video {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#youtube-video iframe {
+  width: 80%;
+  max-width: 800px;
+  height: 450px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+#quote {
+  width: 80%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
 
 form {
   margin: 0 auto;
