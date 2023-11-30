@@ -187,15 +187,9 @@ footer a:hover {
 }
 
 #poems {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  width: 100%;
-  border: 5px solid #F2D95C;
-  box-shadow: 2px 2px 4px #F29544;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 0.5s; 
+  width: 80%;
+  margin-left: 120px;
+  margin-top: 30px;
 }
 .resources_main {
   display: grid;
