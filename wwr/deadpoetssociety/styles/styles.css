@@ -188,8 +188,12 @@ footer a:hover {
 .social img {
   padding-top: 15px;
   transition: border 0.5s;
+  padding: 10px;
 }
 
+.social img:hover {
+  background-color: #F29544;
+}
 #poems {
   width: 80%;
   margin-left: 120px;
