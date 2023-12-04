@@ -20,7 +20,7 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <div id="hero">
+        <div id="hero-video">
             <video autoplay loop id="myVideo">
                 <source src="videos/whatverse.mp4" type="video/mp4">
             </video>
@@ -51,3 +51,21 @@
             </a>
             <a href="https://twitter.com" target="_blank">
                
+<script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    
+    // Pause and play the video, and change the button text
+    function toggleVideo() {
+        if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+        } else {
+        video.pause();
+        btn.innerHTML = "Play";
+        }
+    }
+    </script>
