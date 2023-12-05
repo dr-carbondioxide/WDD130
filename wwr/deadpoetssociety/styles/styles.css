@@ -74,6 +74,7 @@ nav a {
     justify-items: center;
     align-items: center;
     gap: 20px; 
+    color:#F4FAFF
 }
   
 #hero-msg p {
@@ -158,42 +159,42 @@ main h2 {
 }
 
 footer {
-    width: 100%;
-    background-color: #F2D95C;
-    color: #8C3535;
-    font-size: 1em;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-color: #8C3535;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: 100%;
+  background-color: #F2D95C;
+  color: #8C3535;
+  font-size: 1em;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-color: #8C3535;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-  
-  
+
 footer a {
-    color: #8C3535;
-    text-decoration: none;
-    padding: 10px;
+  color: #8C3535;
+  text-decoration: none;
+  padding: 10px;
 }
-  
+
 footer a:hover {
-    background-color: #F29544;
-    color: #8C3535;
-    border-color: #8C3535;
-    border: 1px solid transparent;
+  background-color: #F29544;
+  color: #8C3535;
+  border-color: #8C3535;
+  border: 1px solid transparent;
 }
 
 .social img {
-  padding-top: 15px;
-  transition: border 0.5s;
   padding: 10px;
+  transition: background-color 0.5s;
 }
 
 .social img:hover {
   background-color: #F29544;
+  border-radius: 50%;
 }
+
 #poems {
   width: 80%;
   margin-left: 120px;
