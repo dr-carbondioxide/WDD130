@@ -318,6 +318,10 @@ footer a:hover {
   margin-bottom: 20px;
 }
 
+#additional-video p{
+  color: #F4FAFF;
+}
+
 #additional-video video {
   width: 80%;
   max-width: 800px;
@@ -340,10 +344,11 @@ footer a:hover {
   margin: 0 auto; 
 }
 
-#quote {
+#quote img{
   width: 80%;
   margin-left: 120px;
   margin-top: 30px;
+  justify-content: center;
 }
 
 #myVideo {
