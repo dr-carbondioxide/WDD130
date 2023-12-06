@@ -76,6 +76,16 @@ nav a {
     gap: 20px; 
     color:#F4FAFF
 }
+#hero-msg1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px; 
+    color:#F4FAFF
+
+}
   
 #hero-msg p {
     font-family: 'Gideon Roman', Helvetica, serif;
@@ -118,6 +128,20 @@ main h2 {
   padding-left: 40%;
   padding-right: 40%;
 }
+
+#join-us2 {
+  display: grid;
+  width: 55.5%;
+  text-align: center;
+}
+#join-us-nav2 {
+  text-align: center;
+  display: table-cell;
+  width: 100%;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
 #about-me {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -214,7 +238,7 @@ footer a:hover {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust to your needs */
+  height: 100vh;
   text-align: center;
 }
 
