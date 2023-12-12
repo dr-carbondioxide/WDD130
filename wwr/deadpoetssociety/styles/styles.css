@@ -402,6 +402,7 @@ footer a:hover {
 }
 
 #myBtn {
+  font-family: 'Gideon Roman', Helvetica, serif;
   position: absolute;
   width: 500px;
   font-size: 18px;
