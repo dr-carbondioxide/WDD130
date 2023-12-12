@@ -41,13 +41,13 @@ nav a {
     padding: 10px 15px;
     border: 1px solid transparent;
     transition: border-color 0.3s; 
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     background-color: #F29544;
     color: #8C3535;
     border-color: #8C3535;
-  }
+}
 
 #hero {
   display: grid;
@@ -385,12 +385,11 @@ footer a:hover {
 }
 
 #myVideo {
+  width: 70%;
   position: relative;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .content {
@@ -403,17 +402,18 @@ footer a:hover {
 }
 
 #myBtn {
+  position: relative;
   width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #000;
-  color: #fff;
+  background: #F2D95C;
+  color: #8C3535;
   cursor: pointer;
 }
 
 #myBtn:hover {
-  background: #ddd;
+  background: #F29544;
   color: black;
 }
 
