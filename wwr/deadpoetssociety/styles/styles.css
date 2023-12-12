@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Martian+Mono:wght@300;400&display=swap');
 
 body {
+  height: 100%;
   background-color: #8C3535;
   font-family: 'Gideon Roman', Helvetica, serif;
   font-size: 22px;
@@ -144,7 +145,7 @@ main h2 {
 
 #about-me {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
   margin-top: 50px;
 }
 #about-title {
@@ -159,10 +160,10 @@ main h2 {
   text-shadow: 2px 2px 4px #F29544;
 }
 #notebook {
-  grid-column: 1/2;
+  grid-column: 3/4;
   grid-row: 2/3;
-  width: 100%;
-  margin-left: 30px;
+  width: 90%;
+  margin-left: 10px auto;
   margin-top: 23px;
   border: 5px solid #F2D95C;
   box-shadow: 2px 2px 4px #F29544;
@@ -175,11 +176,11 @@ main h2 {
 }
 
 #about-me p {
-  grid-column: 2/4;
+  grid-column: 1/3;
   grid-row: 2/3;
   color: white;
   width: 90%;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 
 footer {
@@ -187,7 +188,7 @@ footer {
   background-color: #F2D95C;
   color: #8C3535;
   font-size: 1em;
-  margin-top: 50px;
+  margin-top: 250px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -235,7 +236,7 @@ footer a:hover {
 }
 .resources_main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
   height: 100vh;
