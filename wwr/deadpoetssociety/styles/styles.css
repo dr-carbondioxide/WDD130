@@ -72,21 +72,23 @@ nav a:hover {
 }
 
 #hero-msg {
-    display: block;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
-    gap: 20px; 
-    color:#F4FAFF
+  text-align: center;
+  display: block;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  gap: 20px; 
+  color:#F4FAFF;
+  margin-top: 20px;
 }
 #hero-msg1 {
-    display: block;
-    width: 100%;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
-    gap: 20px; 
-    color:#F4FAFF
+  display: block;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  gap: 20px; 
+  color:#F4FAFF
 
 }
   
@@ -385,10 +387,8 @@ footer a:hover {
 }
 
 #myVideo {
-  width: 70%;
+  width: 80%;
   position: relative;
-  align-items: center;
-  justify-content: center;
   padding-top: 50px;
 }
 
@@ -402,19 +402,23 @@ footer a:hover {
 }
 
 #myBtn {
-  position: relative;
-  width: 200px;
+  position: absolute;
+  width: 500px;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #F2D95C;
-  color: #8C3535;
+  background: #8C3535;
+  color: #F2D95C;
   cursor: pointer;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
 }
 
 #myBtn:hover {
-  background: #F29544;
-  color: black;
+  background: #F2D95C;
+  color: #8C3535;
 }
 
 form {
@@ -481,3 +485,12 @@ button {
 }
 
 
+#hero-video {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: auto; /* Adjust height to be auto so it only takes the space it needs */
+  margin-top: 20px; /* Add margin for spacing, adjust as needed */
+  margin-bottom: 200px; /* Bottom margin to prevent overlapping with other elements */
+}
