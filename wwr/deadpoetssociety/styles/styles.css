@@ -61,7 +61,9 @@ nav a {
 }
 
 #hero-img {
-  width: 100%;
+  padding-top: 50px;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .home-grid {
@@ -335,6 +337,12 @@ footer a:hover {
 .resources_sect h1 {
   color: #8C3535;
   padding: 1rem;
+}
+
+.resource-one,
+.resource-two,
+.resource-three {
+  padding: 10px; /* Adjust padding as needed */
 }
 
 #additional-video {
