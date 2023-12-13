@@ -225,9 +225,10 @@ footer a:hover {
 }
 
 #poems {
+  display: flex;
+  align-items: center;
   width: 80%;
-  margin-left: 120px;
-  margin-top: 30px;
+  margin: 10%;
   transition-duration: 0.5s;
   border: 5px solid #F2D95C;
   transition-duration: 0.5s;
@@ -313,19 +314,19 @@ footer a:hover {
 }
 
 .resource-one:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   opacity: 0.8;
   transition-duration: 0.5s;
 }
 
 .resource-two:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   opacity: 0.8;
   transition-duration: 0.5s;
 }
 
 .resource-three:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   opacity: 0.8;
   transition-duration: 0.5s;
 }
@@ -346,6 +347,7 @@ footer a:hover {
 .resource-three {
   padding: 10px; /* Adjust padding as needed */
 }
+
 
 #additional-video {
   text-align: center;
@@ -369,6 +371,7 @@ footer a:hover {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+  border: 5px solid #8C3535;
 }
 
 #youtube-video iframe {
@@ -380,9 +383,10 @@ footer a:hover {
 }
 
 #quote img{
+  display: flex;
+  align-items: center;
+  margin: 10%;
   width: 80%;
-  margin-left: 120px;
-  margin-top: 30px;
   justify-content: center;
 }
 
